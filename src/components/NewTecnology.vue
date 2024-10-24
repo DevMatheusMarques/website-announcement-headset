@@ -6,7 +6,7 @@ export default {
   components: {ImageCard},
   data() {
     return {
-      imageUrl: '/src/assets/new-tecnology.png',
+      imageUrl: '/assets/new-tecnology.png',
       imageDescription: 'Foto da nova tecnologia'
     }
   }
