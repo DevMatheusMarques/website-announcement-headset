@@ -6,7 +6,7 @@ export default {
   components: {ImageCard},
   data() {
     return {
-      imageUrl: '/src/assets/celular.png',
+      imageUrl: '/assets/celular.png',
       imageDescription: 'Foto do suporte especial'
     }
   }

@@ -13,7 +13,7 @@ export default {
     <div class="header-container">
       <div class="header-text">
         <div class="header-container-enterprise">
-          <span><img src="/src/assets/icons/icone-empresa.png" alt="Logo Empresa" class="header-logo"></span>
+          <span><img src="/assets/icons/icone-empresa.png" alt="Logo Empresa" class="header-logo"></span>
           <span class="header-name-enterprise">Cabos do Oeste</span>
         </div>
         <div>

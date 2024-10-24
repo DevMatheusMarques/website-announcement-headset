@@ -5,14 +5,6 @@ import CategoriesCard from "@/components/CategoriesCard.vue";
 export default {
   name: "Categories",
   components: {CategoriesCard, PrimaryButton},
-  // data() {
-  //   return {
-  //     imageUrl: "",
-  //     imageDescription: "",
-  //     cardTitle: "",
-  //     text: ""
-  //   }
-  // }
 }
 </script>
 
@@ -23,9 +15,9 @@ export default {
         <span>Compre por categoria</span>
       </div>
       <div class="container-cards">
-        <CategoriesCard image-url="src/assets/telefone.png" font-size="23px" image-description="teste" card-title="TELEFONES & ACESSÓRIOS" text="Telefones de alta qualidade a preços acessíveis" class="card-category"/>
-        <CategoriesCard image-url="src/assets/computador.png" font-size="23px" image-description="teste" card-title="EQUIPAMENTO DE COMPUTADOR" text="Do desktop ao notebook, não importa a necessidade" class="card-category"/>
-        <CategoriesCard image-url="src/assets/fone.png" font-size="24px" image-description="teste" card-title="OUTROS PRODUTOS" text="Diversos Produtos  para atender às suas necessidades" class="card-category"/>
+        <CategoriesCard image-url="/assets/telefone.png" font-size="23px" image-description="teste" card-title="TELEFONES & ACESSÓRIOS" text="Telefones de alta qualidade a preços acessíveis" class="card-category"/>
+        <CategoriesCard image-url="/assets/computador.png" font-size="23px" image-description="teste" card-title="EQUIPAMENTO DE COMPUTADOR" text="Do desktop ao notebook, não importa a necessidade" class="card-category"/>
+        <CategoriesCard image-url="/assets/fone.png" font-size="24px" image-description="teste" card-title="OUTROS PRODUTOS" text="Diversos Produtos  para atender às suas necessidades" class="card-category"/>
       </div>
       <div style="text-align: center; padding-top: 4rem" class="sale-all-button">
         <PrimaryButton text="COMPRE TUDO" style="font-weight: bold"/>
